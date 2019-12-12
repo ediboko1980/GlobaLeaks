@@ -773,6 +773,7 @@ factory("AdminUtils", ["AdminContextResource", "AdminQuestionnaireResource", "Ad
       user.state = "enabled";
       user.name = "";
       user.description = "";
+      user.public_name = "";
       user.mail_address = "";
       user.pgp_key_fingerprint = "";
       user.pgp_key_remove = false;
